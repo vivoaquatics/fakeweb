@@ -2,7 +2,6 @@
 
 Gem::Specification.new do |s|
   s.name              = "fakeweb"
-  s.rubyforge_project = "fakeweb"
   s.version           = "1.3.0"
   s.summary           = "A tool for faking responses to HTTP requests"
 
@@ -56,7 +55,7 @@ Gem::Specification.new do |s|
     rake_spec = ["~> 10.0"]
   else
     # Otherwise, prefer up-to-date Rake
-    rake_spec = ["~> 12.0"]
+    rake_spec = ["~> 13.0"]
   end
   s.add_development_dependency "rake", rake_spec
 
@@ -84,7 +83,7 @@ Gem::Specification.new do |s|
     # SimpleCov depends on multi_json, which as of 1.7.3 prints a
     # warning when the Ruby 1.9 stdlib is the only available backend.
     # See https://github.com/intridea/multi_json/commit/e7438e7ba2.
-    s.add_development_dependency "json",              ["~> 1.7"]
+    s.add_development_dependency "json",              ["~> 2.3"]
   end
 
 

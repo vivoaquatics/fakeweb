@@ -11,5 +11,5 @@ platform :rbx do
   # Test::Unit compatibility layer like 4.x, so it doesn't work with Test::Unit
   # at all. rubysl-test-unit 2.0.3 fixed this.
   gem "rubysl-test-unit", ["~> 2.0", "!= 2.0.2"]
-  gem "psych", "~> 2.0"
+  gem "psych", "~> 3.0"
 end
